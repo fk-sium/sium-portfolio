@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses — Md. Fazlul Karim Sium</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Fazlul Karim Sium</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Courses & Services</h1>
+    <p>Enroll in self-paced or live-cohort courses, or book tutoring and consultation sessions.</p>
+
+    <div class="cards-grid">
+      <article class="card">
+        <h3>IELTS Essentials — Complete Course</h3>
+        <p>Video lessons, practice materials, mock tests and 2 live group Q&A sessions.</p>
+        <p><strong>Price:</strong> BDT 4,500</p>
+        <div class="card-actions">
+          <button class="btn add-to-cart" data-id="course-ielts" data-title="IELTS Essentials" data-price="4500">Add to cart</button>
+          <a href="course-ielts-essentials.html" class="btn ghost">Details</a>
+        </div>
+      </article>
+
+      <!-- additional courses can go here -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year5"></span> Md. Fazlul Karim Sium</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year5').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

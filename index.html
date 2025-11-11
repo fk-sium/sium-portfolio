@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Md. Fazlul Karim Sium — Portfolio</title>
+  <meta name="description" content="Md. Fazlul Karim Sium — Student, Journalist, Educator. Portfolio, Blog, Courses." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Fazlul Karim Sium</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn small">🌗</button>
+        <button id="cart-btn" class="btn small">Cart (<span id="cart-count">0</span>)</button>
+        <button id="menu-toggle" class="btn small mobile-only">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Md. Fazlul Karim Sium</h1>
+          <p class="lead">Dedicated Student • Journalist • Educator</p>
+          <p>I’m a BAU student, IELTS instructor & assessor, OET invigilator, and a leader with multiple awards in quizzes, debates, and mathematics. I create educational content, tutor, and build projects like <strong>Econest</strong> — a future sound production & learning hub.</p>
+          <div class="hero-cta">
+            <a href="about.html" class="btn">About me</a>
+            <a href="courses.html" class="btn ghost">View Courses</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="profile-placeholder.png" alt="Md. Fazlul Karim Sium" class="profile-pic"/>
+          <ul class="quick-facts">
+            <li><strong>SSC & HSC:</strong> GPA 5.00</li>
+            <li><strong>Positions:</strong> Press & Publication Secretary, BAUJA</li>
+            <li><strong>Skills:</strong> Teaching, Journalism, Adobe Illustrator</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio container">
+      <h2>Highlights & Achievements</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Press & Publication Secretary — BAUJA (2025)</h3>
+          <p>Managing publications, social comms, and student journalism initiatives.</p>
+        </article>
+        <article class="card">
+          <h3>National Runner-up — Newspaper Olympiad</h3>
+          <p>Recognized nationally for journalism excellence.</p>
+        </article>
+        <article class="card">
+          <h3>Regional Champion — Bangladesh Math Olympiad</h3>
+          <p>Champion at regional level for mathematics competitions.</p>
+        </article>
+        <article class="card">
+          <h3>IELTS Instructor & Assessor</h3>
+          <p>Experience teaching IELTS and assessing candidates at FutureEd.</p>
+        </article>
+      </div>
+
+      <h3 style="margin-top:2rem;">Timeline</h3>
+      <ol class="timeline">
+        <li><strong>2024–2025</strong> — BAU activities, training & competitions</li>
+        <li><strong>2025</strong> — Appointed Press & Publication Secretary, BAUJA</li>
+        <li><strong>Future</strong> — Build Econest (sound production & learning hub)</li>
+      </ol>
+    </section>
+
+    <section class="container previews">
+      <div class="preview-col">
+        <h2>Latest Blog</h2>
+        <article class="preview">
+          <h3><a href="blog-post-1.html">How I prepared for IELTS — practical tips & routine</a></h3>
+          <p>My personal IELTS study plan, practice routines, and resources that worked for me.</p>
+          <a href="blog.html" class="link">See more articles →</a>
+        </article>
+      </div>
+
+      <div class="preview-col">
+        <h2>Featured Course</h2>
+        <article class="preview">
+          <h3><a href="course-ielts-essentials.html">IELTS Essentials — Complete Course</a></h3>
+          <p>Self-paced course with video lessons, practice tests, and live group sessions.</p>
+          <a href="courses.html" class="link">See all courses →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container contact-cta">
+      <h2>Get in touch</h2>
+      <p>Want coaching, collaboration, or a speaking session? <a href="contact.html">Contact me</a> or email: <a href="mailto:fk.sium@example.com">fk.sium@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Md. Fazlul Karim Sium — Built with ❤️</p>
+      <div class="social">
+        <a href="#">LinkedIn</a> · <a href="#">Facebook</a> · <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="cart-close" class="btn small">Close</button>
+      <h3>Your Cart</h3>
+      <ul id="cart-list"></ul>
+      <p>Total: <strong id="cart-total">BDT 0</strong></p>
+      <button id="checkout-btn" class="btn">Checkout (placeholder)</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
