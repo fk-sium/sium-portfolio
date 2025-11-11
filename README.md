@@ -8,4 +8,4 @@ This repository contains my personal portfolio website built with **HTML, CSS, a
 - Course page to sell or showcase tutoring services
 - Light/dark mode and responsive design
 
-🌐 **Live site:** https://<fk-sium>.github.io/sium-portfolio/
+🌐 **Live site:** https://fk-sium.github.io/sium-portfolio/
